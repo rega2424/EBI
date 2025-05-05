@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Power BI</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
+      padding: 2rem;
+      color: #fff;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    .section {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 2rem;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .section h2 {
+      font-size: 1.5rem;
+      color: #b4f4e5;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      padding-bottom: 0.5rem;
+    }
+
+    .links {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .links a {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 1.2rem;
+      border-radius: 16px;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .links a:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+
+    .logo-bottom {
+      display: flex;
+      justify-content: center;
+      margin-top: 4rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .logo-bottom img {
+      width: 120px;
+      filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.6));
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>POWER BI DASHBOARD</h1>
+
+  <!-- Business Improvement -->
+  <div class="section">
+    <h2>Business Improvement</h2>
+    <div class="links">
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiNTc0NDZhZGEtMzc0YS00MjU1LWI4YzItYWE0ZDJlNjNlNjFmIiwidCI6IjdmNGJlN2NmLTQyNzItNGYyYi1hNTczLWEyNDU1MDI2MDRlZCIsImMiOjEwfQ%3D%3D" target="_blank">Mine Hidrology</a>
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiZjE1OTFhZGEtY2Q4NS00MTQwLTllZDgtMWU0OWU2OTc2YWMyIiwidCI6IjdmNGJlN2NmLTQyNzItNGYyYi1hNTczLWEyNDU1MDI2MDRlZCIsImMiOjEwfQ%3D%3D" target="_blank">Geotechnical Slope Monitoring</a>
+      <a href="https://bit.ly/EBI2025" target="_blank">PA UA Analysis</a>
+      <a href="https://bit.ly/DailyEBI2025" target="_blank">Daily Heavy Equipment EBI</a>
+    </div>
+  </div>
+
+  <!-- Mine Reclamation -->
+  <div class="section">
+    <h2>Mine Reclamation</h2>
+    <div class="links">
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiMGM2MGY2MjctZjE3NS00MGEyLThjNDYtMWE3MDYwMjI5MTA0IiwidCI6IjdmNGJlN2NmLTQyNzItNGYyYi1hNTczLWEyNDU1MDI2MDRlZCIsImMiOjEwfQ%3D%3D" target="_blank">Reclamation</a>
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiNTk3OWM0ZWQtZGE3MC00MmIyLWI4NzEtMzEzNGVkN2U3ZmUzIiwidCI6IjdmNGJlN2NmLTQyNzItNGYyYi1hNTczLWEyNDU1MDI2MDRlZCIsImMiOjEwfQ%3D%3D" target="_blank">Regrading</a>
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiZmM1NmJkMGQtZWNhZS00OGRlLTk3OWEtYzNhODE3M2E0NzRhIiwidCI6IjdmNGJlN2NmLTQyNzItNGYyYi1hNTczLWEyNDU1MDI2MDRlZCIsImMiOjEwfQ%3D%3D" target="_blank">Plant Monitoring</a>
+    </div>
+  </div>
+
+  <!-- Compliance -->
+  <div class="section">
+    <h2>Compliance and Monitoring</h2>
+    <div class="links">
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiYmFiMmQ3ZjctYWI5Yi00OGNhLWFkNWItNDBhYmFkZTFmYTFjIiwidCI6IjdmNGJlN2NmLTQyNzItNGYyYi1hNTczLWEyNDU1MDI2MDRlZCIsImMiOjEwfQ%3D%3D" target="_blank">Compliance</a>
+      <a href="https://enviromonitoring.netlify.app/" target="_blank">Environment Monitoring</a>
+    </div>
+  </div>
+
+  <!-- Lainnya -->
+  <div class="section">
+    <h2>Lainnya</h2>
+    <div class="links">
+      <a href="https://app.powerbi.com/view?r=eyJrIjoiNzA0YmIxNmEtOTUwNi00Mjg5LTg0MjktMDQ4MGM5MTYwNDBkIiwidCI6IjdmNGJlN2NmLTQyNzItNGYyYi1hNTczLWEyNDU1MDI2MDRlZCIsImMiOjEwfQ%3D%3D" target="_blank">Monitoring Karyawan</a>
+    </div>
+  </div>
+
+  <div class="logo-bottom">
+    <img src="logo.png" alt="Logo Harita">
+  </div>
+
+  <footer>&copy; 2025 Harita Nickel</footer>
+
+</body>
+</html>
